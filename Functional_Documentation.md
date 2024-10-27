@@ -3,10 +3,10 @@
 ---
 
 ## 1. Resumen General de la Aplicación
-   - **Nombre de la Aplicación**: [Nombre de la app]
-   - **Descripción**: [Breve descripción de la app y su propósito principal]
-   - **Público Objetivo**: [¿Quién usará esta app?]
-   - **Problema que Resuelve**: [Descripción del problema o necesidad que la app soluciona]
+   - **Nombre de la Aplicación**: Catálogo E-Commerce React
+   - **Descripción**: Proyecto de catálogo de tienda online para probar funciones avanzadas de React.
+   - **Público Objetivo**: Empresas y emprendedores
+   - **Problema que Resuelve**: Sirve como prototipo para orientar futuros proyectos.
    - **Objetivos de la Aplicación**:
      - [Objetivo 1]
      - [Objetivo 2]
