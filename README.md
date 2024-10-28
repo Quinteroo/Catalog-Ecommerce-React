@@ -7,11 +7,6 @@ link despliege vercel
 ## INTRODUCTION
 Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas con React.
 
-## PROYECT GOALS
-- mostrar aprendizajes hasta el momento
-- uso avanzado de hooks
-- ser conscientes de las re-renderizaciones
-
 ## PROJECT REQUIREMENTS
 - Full responsive
 - Buen uso de css y buena arquitectura de la información con las etiquetas del html utilizadas
@@ -27,9 +22,13 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 - ver detalle productos
 - valorar producto (rating)
 
+## USER FLOW
+![image](https://github.com/user-attachments/assets/aa2258d5-0a1d-403a-8a50-1fac29a3ef3c)
+
+
 ## WIREFRAME
-- link 
-- screenshot
+![image](https://github.com/user-attachments/assets/a126e022-bb58-4cf4-a7f7-7436489f7d34)
+
   
 
 ## Technologies used
@@ -53,8 +52,8 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
    - **Endpoint**: `https://fakestoreapi.com/products`
    - **Método**: [GET]
    - **Respuesta**:
-     ```json
-     {
+```
+    {
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
     "price": 109.95,
@@ -64,11 +63,9 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
     "rating": {
       "rate": 3.9,
       "count": 120
-    
      }
      }
-
-     ```
+```
    - **Posibles Errores**:
      - [Error 1: Descripción]
      - [Error 2: Descripción]
