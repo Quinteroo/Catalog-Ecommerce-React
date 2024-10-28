@@ -29,6 +29,8 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 ## WIREFRAME
 ![image](https://github.com/user-attachments/assets/b735198b-5e1e-444d-83f0-25ae62988758)
 
+## COMPONENT ATOMIZATION
+![alt text](image.png)
 
 ## Technologies used
 - Vite
