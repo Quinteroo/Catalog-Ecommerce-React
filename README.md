@@ -30,7 +30,8 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 ![image](https://github.com/user-attachments/assets/b735198b-5e1e-444d-83f0-25ae62988758)
 
 ## COMPONENT ATOMIZATION
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/62382043-ac87-4df8-b71b-3f418a769bfa)
+
 
 ## Technologies used
 - Vite
