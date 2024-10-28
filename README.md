@@ -27,9 +27,8 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 
 
 ## WIREFRAME
-![image](https://github.com/user-attachments/assets/a126e022-bb58-4cf4-a7f7-7436489f7d34)
+![image](https://github.com/user-attachments/assets/b735198b-5e1e-444d-83f0-25ae62988758)
 
-  
 
 ## Technologies used
 - Vite
