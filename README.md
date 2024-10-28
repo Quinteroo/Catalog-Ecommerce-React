@@ -1,6 +1,6 @@
 # REACT AVANZADO - CATÁLOGO ECOMMERCE
 
-![image](captura pantalla imagen)
+![image](https://github.com/user-attachments/assets/0794720f-a3dc-47ad-baf0-b5bd81c5eacd)
 
 link despliege vercel
 
