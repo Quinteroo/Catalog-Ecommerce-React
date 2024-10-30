@@ -5,7 +5,7 @@
 link despliege vercel
 
 ## INTRODUCTION
-Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas con React.
+Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas con React (Custom Hooks, useReducer, useContext, useRef...)
 
 ## PROJECT REQUIREMENTS
 - Full responsive
