@@ -2,7 +2,9 @@ import "./Logo.css"
 
 const Logo = () => {
   return (
-    <div>Logo</div>
+    <h1>
+      QUGOSHOP
+    </h1>
   )
 }
 
