@@ -1,6 +1,7 @@
 import "./Catalog.css"
 import React, { useState, useEffect } from "react"
 import Card from "../Card/Card.jsx"
+import ChooseProductCategory from "../ChooseProductCategory/ChooseProductCategory.jsx"
 
 
 const Catalog = () => {
@@ -15,18 +16,8 @@ const Catalog = () => {
 
   return (
     <section className="section-catalog">
-      <ul className="select-category">
-        <li>
-          <p onClick={() => setCategory("category/men's%20clothing")}>man</p>
-        </li>
-        <li>
-          <p onClick={() => setCategory("category/women's%20clothing")}>woman</p>
-        </li>
-        <li>
-          <p onClick={() => setCategory("category/jewelery")}>jewelery</p>
-        </li>
-      </ul>
 
+      <ChooseProductCategory setCategory={setCategory} />
 
       {catalog.map((product) => (
         <Card product={product} key={product.id} />
