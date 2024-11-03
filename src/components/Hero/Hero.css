@@ -1,0 +1,30 @@
+.hero{
+  width: 100%;
+  height: 70vh;
+  position:relative;
+  background-image: url("/assets/hero.png");
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: top; 
+
+}
+
+.learn-more{
+  position: absolute;
+  bottom: 0px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.learn-more > h2{
+  color: var(--qgd-color-1);
+  font-weight: 200;
+
+}
+
+.learn-more > p{
+  color: var(--qgd-color-1);
+  font-size: x-small;
+  text-decoration: underline;
+}
+
