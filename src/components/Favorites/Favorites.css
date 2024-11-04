@@ -1,0 +1,21 @@
+.div-favorites{
+  width: 100%;
+  height: 20px;
+  position: relative;
+}
+
+.heart-wrp{
+  width: 15px;
+  height: 15px;
+  object-fit: contain;
+  object-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+}
+
+.heart-wrp > img{
+  width: 100%;
+}

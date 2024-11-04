@@ -5,6 +5,8 @@ import ChooseProductCategory from "../ChooseProductCategory/ChooseProductCategor
 
 
 const Catalog = () => {
+  console.log("renderizado de Catalog")
+
   const [catalog, setCatalog] = useState([])
   const [category, setCategory] = useState("")
 
@@ -17,7 +19,7 @@ const Catalog = () => {
   return (
     <section className="section-catalog">
 
-      <ChooseProductCategory setCategory={setCategory} />
+      <ChooseProductCategory setCategory={setCategory} setCatalog={setCatalog} />
 
       {catalog.map((product) => (
         <Card product={product} key={product.id} />

@@ -1,8 +1,12 @@
 import "./Card.css"
+import Favorites from "../Favorites/Favorites.jsx"
+import React from "react"
 
 
 
-const Card = ({ product }) => {
+const Card = React.memo(({ product }) => {
+  console.log("renderizado de Card")
+
   return (
     <div className="product-card" >
       <div className="img-wrp">
@@ -16,9 +20,11 @@ const Card = ({ product }) => {
       <div className="product-info">
         <h3>{product.title}</h3>
         <p>{product.price}€</p>
+        <Favorites product={product} />
+
       </div>
     </div>
   )
-}
+})
 
 export default Card

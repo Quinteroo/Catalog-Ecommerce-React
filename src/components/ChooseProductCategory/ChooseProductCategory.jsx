@@ -1,7 +1,10 @@
+import { FavoriteContext } from "../../providers/FavoriteContext"
 import "./ChooseProductCategory.css"
-import React from "reacts"
+import React, { useContext } from "react"
 
-const ChooseProductCategory = ({ setCategory }) => {
+const ChooseProductCategory = React.memo(({ setCategory, setCatalog }) => {
+  console.log("renderizado de ChooseProductCategory")
+  const { favs } = useContext(FavoriteContext)
 
   return (
     <ul className="select-category">
@@ -14,10 +17,13 @@ const ChooseProductCategory = ({ setCategory }) => {
       <li>
         <p onClick={() => setCategory("category/jewelery")}>jewelery</p>
       </li>
+      <li>
+        <p onClick={() => setCatalog(favs)}>favorites</p>
+      </li>
     </ul>
 
   )
 
-}
+})
 
 export default ChooseProductCategory
