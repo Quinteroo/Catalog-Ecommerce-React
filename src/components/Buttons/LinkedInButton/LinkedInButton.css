@@ -1,0 +1,35 @@
+.linkedin-container{
+  width: 120px;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+}
+
+.linkedin-logo-wrp{
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  object-position: center;
+}
+
+.linkedin-logo-wrp > img{
+  width: 100%;
+  border-radius: var(--qgd-border-radius-1);
+}
+
+.linkedin-container > p{
+  width: 70px;
+  font-weight: 200;
+  font-size: small;
+  color: var(--qgd-color-1);
+}
+
+.linkedin-container > p:hover {
+  font-weight: 400;
+}

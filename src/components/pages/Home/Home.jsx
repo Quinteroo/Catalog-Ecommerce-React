@@ -5,6 +5,8 @@ import Logo from "../../Logos/Logo/Logo.jsx"
 import Footer from "../../layout/Footer/Footer.jsx"
 import Hero from "../../Hero/Hero.jsx"
 import Catalog from "../../Catalog/Catalog.jsx"
+import LinkedInButton from "../../Buttons/LinkedInButton/LinkedInButton.jsx"
+import GithubButton from "../../Buttons/GithubButton/GithubButton.jsx"
 
 const Home = () => {
   return (
@@ -15,7 +17,7 @@ const Home = () => {
         <Catalog />
 
       </main>
-      <Footer github={"github"} linkedin={"linkedin"} />
+      <Footer github={<GithubButton />} linkedin={<LinkedInButton />} />
 
     </>
   )
