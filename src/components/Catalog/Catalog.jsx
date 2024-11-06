@@ -2,7 +2,8 @@ import "./Catalog.css"
 import React, { useState, useEffect } from "react"
 import Card from "../Card/Card.jsx"
 import ChooseProductCategory from "../ChooseProductCategory/ChooseProductCategory.jsx"
-import { useFetchCatalog } from "../../hooks/useFetchCatalog.jsx"
+import { Link } from "react-router-dom"
+
 
 const Catalog = () => {
   console.log("renderizado de Catalog")
@@ -24,7 +25,9 @@ const Catalog = () => {
       <ChooseProductCategory setCategory={setCategory} setCatalog={setCatalog} />
 
       {catalog.map((product) => (
-        <Card product={product} key={product.id} />
+        <Link key={product.id} to={`product/${product.id}`}>
+          <Card product={product} />
+        </Link>
       ))}
     </section>
   )
