@@ -2,9 +2,14 @@ import "./Form.css"
 
 const Form = () => {
 
-  retunr(
-    <form action="">
+  const handleSubmit = (e) => {
+    e.preventDefault()
+  }
 
+  retunr(
+    <form onSubmit={handleSubmit} >
+
+      <button type="submit">Enviar</button>
     </form>
 
   )
