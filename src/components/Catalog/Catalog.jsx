@@ -2,10 +2,11 @@ import "./Catalog.css"
 import React, { useState, useEffect } from "react"
 import Card from "../Card/Card.jsx"
 import ChooseProductCategory from "../ChooseProductCategory/ChooseProductCategory.jsx"
-
+import { useFetchCatalog } from "../../hooks/useFetchCatalog.jsx"
 
 const Catalog = () => {
   console.log("renderizado de Catalog")
+
 
   const [catalog, setCatalog] = useState([])
   const [category, setCategory] = useState("")
@@ -15,6 +16,7 @@ const Catalog = () => {
       .then((res) => res.json())
       .then((res) => setCatalog(res))
   }, [category])
+
 
   return (
     <section className="section-catalog">
