@@ -18,7 +18,6 @@ const Home = () => {
 
       </main>
       <Footer github={<GithubButton />} linkedin={<LinkedInButton />} />
-
     </>
   )
 }

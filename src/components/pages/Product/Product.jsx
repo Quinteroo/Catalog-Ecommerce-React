@@ -5,7 +5,7 @@ import LogoLinkHome from "../../Logos/LogoLinkHome/LogoLinkHome.jsx"
 import Footer from "../../layout/Footer/Footer.jsx"
 import GithubButton from "../../Buttons/GithubButton/GithubButton.jsx"
 import LinkedInButton from "../../Buttons/LinkedInButton/LinkedInButton"
-import { Link } from "react-router-dom"
+
 
 const Product = () => {
   return (
