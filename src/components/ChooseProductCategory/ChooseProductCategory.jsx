@@ -18,7 +18,7 @@ const ChooseProductCategory = React.memo(({ setCategory, setCatalog }) => {
         <p onClick={() => setCategory("category/jewelery")}>jewelery</p>
       </li>
       <li>
-        <p onClick={() => setCatalog(favs)}>favorites</p>
+        <p onClick={() => setData(favs)}>favorites</p>
       </li>
     </ul>
 
