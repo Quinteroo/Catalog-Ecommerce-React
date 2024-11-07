@@ -7,10 +7,10 @@ const Form = () => {
   const [state, dispatch] = useReducer(formReducer, initialState);
 
 
-  // Manejar cambio de inputs (memoizado con useCallback)
+
   const handleChange = useCallback((e) => {
     const { name, value } = e.target;
-    dispatch({ type: 'UPDATE_FIELD', field: name, value });
+    dispatch({ type: 'UPDATE_FIELD', payload: { field: name, value } });
   }, []);
 
 
