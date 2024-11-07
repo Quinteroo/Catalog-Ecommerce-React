@@ -8,12 +8,14 @@ const FavoriteProvider = ({ children }) => {
   const [favs, setFavs] = useState([])
 
   const toggleFavorite = (product) => {
-    if (favs.includes(product)) {
-      setFavs(favs.filter((fav) => fav !== product));
+    const isFavorite = favs.some((fav) => fav.id === product.id)
+
+    if (isFavorite) {
+      setFavs(favs.filter((fav) => fav.id !== product.id))
     } else {
-      setFavs([...favs, product]);
+      setFavs([...favs, product])
     }
-  };
+  }
 
   return (
     <FavoriteContext.Provider value={{

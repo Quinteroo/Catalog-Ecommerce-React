@@ -2,6 +2,7 @@
   width: 100%;
   height: 20px;
   position: relative;
+  z-index: 6;
 }
 
 .heart-wrp{

@@ -14,7 +14,7 @@ const Contact = () => {
       <main>
         <section>
           <div className="div-img-form">
-            <img src="/assets/img-form.png" alt="imagen sección de contacto" title="imagen de sección de contacto" loading="lazy" />
+            <img src="/assets/img-form.jpg" alt="imagen sección de contacto" title="imagen de sección de contacto" loading="lazy" />
           </div>
           <Form />
         </section>

@@ -1,10 +1,12 @@
+import { formReducer, INITIAL_FORM_STATE } from "../../utils/FormReducer";
 import "./Form.css"
 import React, { useReducer, useCallback } from "react"
+import InputField from "./InputField/InputField.jsx"
 
 
 const Form = () => {
 
-  const [state, dispatch] = useReducer(formReducer, initialState);
+  const [state, dispatch] = useReducer(formReducer, INITIAL_FORM_STATE);
 
 
 

@@ -2,7 +2,7 @@ import { FavoriteContext } from "../../providers/FavoriteContext"
 import "./ChooseProductCategory.css"
 import React, { useContext } from "react"
 
-const ChooseProductCategory = React.memo(({ setCategory, setCatalog }) => {
+const ChooseProductCategory = React.memo(({ setCategory, setData }) => {
   console.log("renderizado de ChooseProductCategory")
   const { favs } = useContext(FavoriteContext)
 

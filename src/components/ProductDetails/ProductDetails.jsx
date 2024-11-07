@@ -1,8 +1,13 @@
+
 import "./ProductDetails.css"
+
 
 
 const ProductDetails = ({ product }) => {
 
+  if (!product || !product.rating) {
+    return <p>Cargando detalles del producto...</p>;
+  }
 
   return (
     <section className="section-product-details">

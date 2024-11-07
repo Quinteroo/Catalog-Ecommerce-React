@@ -5,30 +5,23 @@ import LogoLinkHome from "../../Logos/LogoLinkHome/LogoLinkHome.jsx"
 import Footer from "../../layout/Footer/Footer.jsx"
 import GithubButton from "../../Buttons/GithubButton/GithubButton.jsx"
 import LinkedInButton from "../../Buttons/LinkedInButton/LinkedInButton"
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { useParams } from "react-router-dom"
 import ProductDetails from "../../ProductDetails/ProductDetails.jsx"
+import { useFetch } from "../../../hooks/useFetch.jsx"
 
 
 const Product = () => {
 
-  const [product, setProduct] = useState(null)
   const { id } = useParams()
-
-
-  useEffect(() => {
-    fetch(`https://fakestoreapi.com/products/${id}`)
-      .then((res) => res.json)
-      .then((res) => setProduct(res))
-
-  }, [])
+  const { data, setData } = useFetch(`https://fakestoreapi.com/products/${id}`)
 
 
   return (
     <>
       <Header logo={<LogoLinkHome />} navbar={<Navbar />} />
       <main>
-        <ProductDetails product={product} />
+        <ProductDetails product={data} />
       </main>
       <Footer github={<GithubButton />} linkedin={<LinkedInButton />} />
     </>
