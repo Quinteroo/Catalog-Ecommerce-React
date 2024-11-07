@@ -2,9 +2,9 @@
 /* BUTTONS */
 .primary-button{
   padding: var(--qgd-padding-xs);
-  border: 1px solid  var(--qgd-color-50);
-  background-color: var(--qgd-color-50);
-  color:var(--qgd-color-05);
+  border: 1px solid  var(--qgd-color-1);
+  background-color: var(--qgd-color-1);
+  color:var(--qgd-color-2);
   border-radius:var(--qgd-border-radius-1);
   cursor:pointer;
   transition: 0.7;

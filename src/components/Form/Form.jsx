@@ -24,28 +24,29 @@ const Form = () => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <h2>¿Tienes alguna duda?</h2>
       <InputField
-        label="Nombre"
+        placeholder="Nombre"
         name="nombre"
         value={state.nombre}
         onChange={handleChange}
       />
       <InputField
-        label="Email"
+        placeholder="Email"
         name="email"
         value={state.email}
         onChange={handleChange}
       />
-      <div>
-        <label htmlFor="mensaje">Mensaje:</label>
+      <div className="div-textarea">
         <textarea
+          placeholder="Cuéntanos! "
           id="mensaje"
           name="mensaje"
           value={state.mensaje}
           onChange={handleChange}
         />
       </div>
-      <button type="submit">Enviar</button>
+      <button type="submit" className="primary-button hover">Enviar</button>
     </form>
   );
 }

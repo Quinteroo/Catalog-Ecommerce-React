@@ -1,0 +1,9 @@
+.div-input-field{
+  width: 50%;
+}
+
+.div-input-field > input{
+  width: 100%;
+}
+
+

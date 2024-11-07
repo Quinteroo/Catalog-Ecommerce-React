@@ -3,10 +3,10 @@ import React from "react"
 
 
 
-const InputField = React.memo(({ label, name, value, onChange }) => (
-  <div>
-    <label htmlFor={name}>{label}:</label>
+const InputField = React.memo(({ placeholder, name, value, onChange }) => (
+  <div className="div-input-field">
     <input
+      placeholder={placeholder}
       type="text"
       id={name}
       name={name}

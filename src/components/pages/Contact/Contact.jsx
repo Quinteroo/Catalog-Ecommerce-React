@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <Header logo={<LogoLinkHome />} navbar={<Navbar />} />
       <main>
-        <section>
+        <section className="section-contact">
           <div className="div-img-form">
             <img src="/assets/img-form.jpg" alt="imagen sección de contacto" title="imagen de sección de contacto" loading="lazy" />
           </div>

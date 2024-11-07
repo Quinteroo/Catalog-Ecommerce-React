@@ -1,0 +1,25 @@
+form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 5px 0px 0px 30px;
+  gap: 10px;
+}
+
+form > h2{
+  font-size:xx-large;
+}
+
+.div-textarea{
+  width: 50%;
+}
+
+.div-textarea > textarea{
+  width: 100%;
+}
+
+/* form > button{
+  color: ;
+} */
