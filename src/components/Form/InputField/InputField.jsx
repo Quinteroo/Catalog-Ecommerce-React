@@ -12,6 +12,7 @@ const InputField = React.memo(({ label, name, value, onChange }) => (
       name={name}
       value={value}
       onChange={onChange}
+      required
     />
   </div>
 ));
