@@ -17,9 +17,11 @@ const ProductDetails = ({ product }) => {
       <div className="div-product-info">
         <h2>{product.title}</h2>
         <p>{product.description}</p>
-        <p>{product.price}</p>
+        <p>{product.price} €</p>
         <p>valoración: {product.rating.rate} /5</p>
         <p>{product.rating.count} reviews </p>
+        <button className="primary-button hover">add to cart</button>
+
       </div>
     </section>
   )
