@@ -1,8 +1,7 @@
 # REACT AVANZADO - CATÁLOGO ECOMMERCE
 
-![image](https://github.com/user-attachments/assets/0794720f-a3dc-47ad-baf0-b5bd81c5eacd)
+![image](https://github.com/user-attachments/assets/d89cb5fe-297f-4bb7-86bc-4dc722fa03e0)
 
-link despliege vercel
 
 ## INTRODUCTION
 Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas con React (Custom Hooks, useReducer, useContext, useRef...)
@@ -20,14 +19,27 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 - filtrar productos
 - guardar favoritos
 - ver detalle productos
-- valorar producto (rating)
+- formulario contacto
 
 ## USER FLOW
-![image](https://github.com/user-attachments/assets/aa2258d5-0a1d-403a-8a50-1fac29a3ef3c)
+![image](https://github.com/user-attachments/assets/2a4e7f10-3665-4258-b6a5-101fb757c71b)
+
+## HOOKS
+- useState
+- useEffect
+- useContext
+- memo
+- useCallback
+- useReducer
+- Custom Hook -> useFetch
+
+## WIREFRAME / prototipado
+![image](https://github.com/user-attachments/assets/279c6eb8-675f-44f1-bdc7-729ad4f70828)
+
+## FOLDERS
+![image](https://github.com/user-attachments/assets/5fc78796-cc67-4818-bbbd-9f0de6e39106)
 
 
-## WIREFRAME
-![image](https://github.com/user-attachments/assets/b735198b-5e1e-444d-83f0-25ae62988758)
 
 ## COMPONENT ATOMIZATION
 ![image](https://github.com/user-attachments/assets/62382043-ac87-4df8-b71b-3f418a769bfa)
@@ -68,10 +80,6 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
      }
      }
 ```
-   - **Posibles Errores**:
-     - [Error 1: Descripción]
-     - [Error 2: Descripción]
-
 
   
 
@@ -92,5 +100,10 @@ Catálogo de una tienda online, proyecto para desarrollo de funciones avanzadas 
 
 
 ## SCREENSHOTS
-![image]()
+![image](https://github.com/user-attachments/assets/e47aef32-5dfc-48f7-8e7f-28372f516ad9)
+![image](https://github.com/user-attachments/assets/0230fbc1-dfe4-4043-810e-30ff406a2784)
+![image](https://github.com/user-attachments/assets/c47b465b-5a62-404e-bef1-ea0af92a1746)
+![image](https://github.com/user-attachments/assets/058c2fdc-d213-455b-a0ef-7a4632328a0b)
+
+
 
