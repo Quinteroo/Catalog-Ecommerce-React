@@ -1,7 +1,11 @@
 # REACT AVANZADO - CATÁLOGO ECOMMERCE
 
 ![image](https://github.com/user-attachments/assets/d89cb5fe-297f-4bb7-86bc-4dc722fa03e0)
+<<<<<<< HEAD
 ### url proyecto
+=======
+
+>>>>>>> f29202102248ac98534755127fa507bdeb6fcfa1
 https://catalog-ecommerce-react.vercel.app/
 
 ## INTRODUCTION
